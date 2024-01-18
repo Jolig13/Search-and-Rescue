@@ -25,7 +25,7 @@ public class HUD : MonoBehaviour
     {
         if (GameManager.Instance.Life>=0)
         {
-            totalLife.text= "x"+GameManager.Instance.Life.ToString();
+            totalLife.text= "x"+ GameManager.Instance.Life.ToString();
             if (GameManager.Instance.Life==0)
             {
                 totalLife.text="x"+GameManager.Instance.Life.ToString();
